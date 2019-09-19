@@ -8,6 +8,6 @@ func main() {
 	// 网站本身
 	engine := conf.Init()
 
-	// 运行  8001
-	engine.Run(":8001")
+	// 运行  8080
+	engine.Run(":8080")
 }
