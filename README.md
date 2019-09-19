@@ -16,3 +16,6 @@
 ```text
 当plugin为0的时候，DuckyGo会关闭MySQL和Redis的连接，就可以自己单独运行 不会报错.
 ```
+
+## 使用说明
+- `/static`就是`static`文件夹里面的内容

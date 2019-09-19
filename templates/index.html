@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>DuckyGo-MVC Index</title>
+    <style>
+
+        .box {
+            text-align: center;
+        }
+
+        .Welcome {
+            font-size: 30px;
+        }
+
+        .github {
+            font-size: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>{{ msg }}</h1>
+<header class="box">
+    <span class="Welcome">{{ msg }}</span>
+    <br>
+    <span class="github">
+        <a href="{{ url }}" target="_blank">{{ url }}</a>
+    </span>
+</header>
 </body>
 </html>

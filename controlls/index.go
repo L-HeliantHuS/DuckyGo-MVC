@@ -13,6 +13,7 @@ func Index(c *gin.Context) {
 	*/
 
 	c.HTML(http.StatusOK, "index.html", pongo2.Context{
-		"msg": "Welcome to DuckyGo-MVC   https://github.com/L-HeliantHuS/DuckyGo-MVC",
+		"msg": "Welcome to DuckyGo-MVC",
+		"url": "https://github.com/L-HeliantHuS/DuckyGo-MVC",
 	})
 }
