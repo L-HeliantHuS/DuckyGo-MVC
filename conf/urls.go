@@ -5,7 +5,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Urls(r *gin.RouterGroup) {
+func MainUrls(r *gin.RouterGroup) {
+	// 主页
 	r.GET("/", controlls.Index)
 
 }

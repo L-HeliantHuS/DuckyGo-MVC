@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"os"
@@ -16,7 +17,7 @@ func Init() {
 	// 开启Log
 	db.LogMode(true)
 	if err != nil {
-		panic(err)
+		panic(fmt.Sprintf("MySQL 连接异常！ 错误信息: %s", err))
 	}
 
 	//设置连接池

@@ -1,11 +1,13 @@
 ## DuckyGo MVC
    
-   类似Django, 采用gin + pongo2gin + gorm
+   这是Django么？ 不是的！这是采用gin + pongo2gin + gorm搭建的MVC框架~
 
-## 结构
+## 结构说明
 - `conf` 用于服务器配置和url配置
 - `controlls` 业务handler
 - `models` 数据库建模
+- `cache` 缓存模块
+- `services` 服务 放置可重用的逻辑
 - `middlewares` 中间件
 - `static` 静态文件
 - `templates` 模板文件
