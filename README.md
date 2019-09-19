@@ -2,6 +2,8 @@
    
    这是Django么？ 不是的！这是采用gin + pongo2gin + gorm搭建的MVC框架~
 
+- DuckyGo[DuckyGo(Restful API)](https://github.com/L-HeliantHuS/DuckyGo)
+
 ## 第三方模块导航
 - [gin](https://github.com/gin-gonic/gi://github.com/gin-gonic/gin)
 - [pongo2gin](https://gitlab.com/go-box/pongo2gin)
