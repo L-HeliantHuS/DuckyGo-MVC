@@ -3,6 +3,7 @@
    这是Django么？ 不是的！这是采用gin + pongo2gin + gorm搭建的MVC框架~
 
 - DuckyGo Restful API: [DuckyGo(Restful API)](https://github.com/L-HeliantHuS/DuckyGo)
+- 项目实战视频: [DuckyGo-MVC实战开发留言板](https://www.bilibili.com/video/av68466390)
 
 ## 第三方模块导航
 - [gin](https://github.com/gin-gonic/gi://github.com/gin-gonic/gin)
